@@ -937,7 +937,35 @@ footer{
     .section-map--info-item:last-child{
         margin-bottom: 0;
     }
-
+    .patrocinadores .empresas {
+        max-width: 800px;
+    }
+    .section-pricearea {
+        max-width: 500px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .section-price{
+        margin-bottom: 20px;
+    }
+    .section-footer--info {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-footer--info-form form, 
+    .section-footer--info-text p{
+        width: 80vw;
+    }
+    .section-footer--info-social-img{
+        margin-bottom: 20px;
+    }
+    .section-footer--info-form form input {
+        max-width: 50vw;
+    }
+    .section-footer--info-social-text {
+        margin-left: auto;
+        text-align: center;
+    }
 } 
 
 @media (max-width:450px){
@@ -1122,7 +1150,6 @@ footer{
     .section-footer--info-social-text{
         font-size: 12px;
         text-align: center;
+        margin-left: 15vw
     }
 } 
-
-
